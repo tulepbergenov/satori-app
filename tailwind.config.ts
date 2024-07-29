@@ -8,7 +8,12 @@ const config: Config = {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require("@tailwindcss/container-queries"),
+    require("@tailwindcss/aspect-ratio"),
+    require("@tailwindcss/forms"),
+    require("@tailwindcss/typography"),
+  ],
 };
 
 export default config;
