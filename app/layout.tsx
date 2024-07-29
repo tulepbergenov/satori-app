@@ -29,7 +29,7 @@ const RootLayout = ({
         "h-full !scroll-smooth rendering-speed",
         nunitoFont.variable,
       )}
-      lang="en"
+      lang="ru"
     >
       <body className="h-full bg-white font-nunito text-[16px] font-normal leading-[21px] text-black antialiased rendering-speed">
         <div className="flex min-h-full flex-col">
