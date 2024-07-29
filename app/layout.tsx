@@ -24,9 +24,17 @@ const RootLayout = ({
   children: ReactNode;
 }>) => {
   return (
-    <html className={cn(nunitoFont.variable)} lang="en">
-      <body className="font-nunito">
-        <main>{children}</main>
+    <html
+      className={cn(
+        "rendering-speed h-full !scroll-smooth",
+        nunitoFont.variable,
+      )}
+      lang="en"
+    >
+      <body className="rendering-speed h-full bg-white font-nunito text-[16px] font-normal leading-[21px] text-black antialiased">
+        <div className="flex min-h-full flex-col">
+          <main className="flex-auto">{children}</main>
+        </div>
       </body>
     </html>
   );

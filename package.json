@@ -40,6 +40,7 @@
     "stylelint-config-tailwindcss": "^0.0.7",
     "stylelint-order": "^6.0.4",
     "tailwindcss": "^3.4.1",
+    "tailwindcss-text-rendering": "^1.0.2",
     "typescript": "^5"
   }
 }
