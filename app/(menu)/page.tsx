@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: appTitle(),
 };
 
-const Home = () => {
+const Menu = () => {
   return (
     <section>
       <div className="container">
@@ -21,4 +21,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Menu;
