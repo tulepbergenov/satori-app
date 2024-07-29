@@ -8,9 +8,15 @@ export const metadata: Metadata = {
 const Home = () => {
   return (
     <section>
-      <header>
-        <h1>Магазин пиццы Satori - Ваш идеальный выбор для вкусной пиццы!</h1>
-      </header>
+      <div className="container">
+        <div>
+          <header>
+            <h1>
+              Магазин пиццы Satori - Ваш идеальный выбор для вкусной пиццы!
+            </h1>
+          </header>
+        </div>
+      </div>
     </section>
   );
 };

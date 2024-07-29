@@ -26,12 +26,12 @@ const RootLayout = ({
   return (
     <html
       className={cn(
-        "rendering-speed h-full !scroll-smooth",
+        "h-full !scroll-smooth rendering-speed",
         nunitoFont.variable,
       )}
       lang="en"
     >
-      <body className="rendering-speed h-full bg-white font-nunito text-[16px] font-normal leading-[21px] text-black antialiased">
+      <body className="h-full bg-white font-nunito text-[16px] font-normal leading-[21px] text-black antialiased rendering-speed">
         <div className="flex min-h-full flex-col">
           <main className="flex-auto">{children}</main>
         </div>
