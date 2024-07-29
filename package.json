@@ -25,8 +25,18 @@
     "@typescript-eslint/parser": "^7.17.0",
     "eslint": "^8",
     "eslint-config-next": "14.2.5",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
     "eslint-plugin-react": "^7.35.0",
     "postcss": "^8",
+    "prettier": "^3.3.3",
+    "prettier-plugin-organize-imports": "^4.0.0",
+    "prettier-plugin-tailwindcss": "^0.6.5",
+    "stylelint": "^16.7.0",
+    "stylelint-config-rational-order-fix": "^0.1.9",
+    "stylelint-config-recommended": "^14.0.1",
+    "stylelint-config-tailwindcss": "^0.0.7",
+    "stylelint-order": "^6.0.4",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   }
