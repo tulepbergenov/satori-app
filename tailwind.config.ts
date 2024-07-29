@@ -6,7 +6,15 @@ const config: Config = {
     "./__src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        nunito: ["var(--fm-nunito)", "system-ui"],
+      },
+    },
+    container: {
+      center: true,
+      padding: "30px",
+    },
   },
   plugins: [
     require("@tailwindcss/container-queries"),

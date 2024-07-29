@@ -1,7 +1,8 @@
-import { type Viewport, type Metadata } from "next";
-import { type ReactNode } from "react";
-import { appTitle } from "@/__src/shared/libs";
 import "@/__src/app/styles/index.css";
+import { appTitle, cn } from "@/__src/shared/libs";
+import { type Metadata, type Viewport } from "next";
+import { type ReactNode } from "react";
+import { nunitoFont } from "./fonts";
 
 export const metadata: Metadata = {
   title: appTitle(),
@@ -23,8 +24,8 @@ const RootLayout = ({
   children: ReactNode;
 }>) => {
   return (
-    <html lang="en">
-      <body>
+    <html className={cn(nunitoFont.variable)} lang="en">
+      <body className="font-nunito">
         <main>{children}</main>
       </body>
     </html>
