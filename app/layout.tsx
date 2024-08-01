@@ -1,6 +1,6 @@
-import { appTitle, cn } from "@/__src/shared/libs";
-import "@/__src/shared/styles/index.css";
-import { LayoutProps } from "@/__src/shared/types";
+import { appTitle, cn } from "@/_src/shared/libs";
+import "@/_src/shared/styles/index.css";
+import { LayoutProps } from "@/_src/shared/types";
 import { type Metadata, type Viewport } from "next";
 import { nunitoFont } from "./fonts";
 

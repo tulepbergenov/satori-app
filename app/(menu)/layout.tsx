@@ -1,4 +1,4 @@
-import { LayoutProps } from "@/__src/shared/types";
+import { LayoutProps } from "@/_src/shared/types";
 
 const MenuLayout = ({ children }: LayoutProps) => {
   return (

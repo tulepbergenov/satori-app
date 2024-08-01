@@ -1,4 +1,4 @@
-import { appTitle } from "@/__src/shared/libs";
+import { appTitle } from "@/_src/shared/libs";
 import { type Metadata } from "next";
 
 export const metadata: Metadata = {
