@@ -1,3 +1,4 @@
 import { DivProps } from "@/_src/shared/types";
+import { DisclosureProps } from "@headlessui/react";
 
-export type OrderProps = DivProps;
+export type OrderProps = DisclosureProps & Omit<DivProps, "ref">;
