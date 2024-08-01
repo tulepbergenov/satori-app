@@ -7,6 +7,10 @@ export type LayoutProps = {
 
 export type SVGProps = ComponentProps<"svg">;
 
+export type DivProps = ComponentProps<"div">;
+
+export type UListProps = ComponentProps<"ul">;
+
 export type LinkProps = Omit<NextLinkProps, "href"> &
   AnchorProps & {
     href?: NextLinkProps["href"];
